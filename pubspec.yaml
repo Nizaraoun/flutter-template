@@ -1,0 +1,93 @@
+name: taximo
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0-147.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  shared_preferences: ^2.2.2
+  gap: ^3.0.1
+  local_auth: ^2.1.8
+  card_swiper: ^3.0.1
+  dio: ^5.4.0
+  http: ^1.2.0
+  image_picker: ^1.0.7
+  camera: ^0.10.5+9
+  geolocator: ^11.0.0
+  flutter_speed_dial: ^7.0.0
+  flutter_slidable: ^3.0.1
+  dropdown_button2: ^2.3.9
+  html: ^0.15.4
+  translator: ^1.0.0
+  lottie: ^3.1.0
+  google_maps_flutter: ^2.5.0
+  permission_handler: ^11.3.0
+  font_awesome_flutter: ^10.7.0
+  flutter_rating_bar: ^4.0.1
+  ably_flutter: ^1.2.30
+  flutter_localizations:
+    sdk: flutter
+  #  TARJMA 
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto/Roboto-BlackItalic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto/Roboto-LightItalic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto/Roboto-ThinItalic.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Black.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-BlackItalic.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-BoldItalic.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraBold.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraLight.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Italic.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-LightItalic.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-MediumItalic.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Thin.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Thin
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Tajwal/Cairo/static/Cairo-Regular.ttf
+    - family: Tajwal/Tajawal
+      fonts:
+        - asset: assets/fonts/Tajwal/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajwal/Tajawal-Bold.ttf
+        - asset: assets/fonts/Tajwal/Tajawal-ExtraBold.ttf
+        - asset: assets/fonts/Tajwal/Tajawal-Light.ttf
+        - asset: assets/fonts/Tajwal/Tajawal-Medium.ttf
+flutter_intl:
+  enabled: true
